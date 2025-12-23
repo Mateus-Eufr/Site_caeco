@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Poppins:ital,wght@0,600;0,700;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanuman&family=IM+Fell+Double+Pica+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Inter:wght@100;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Section-1-bg{
+    background-image: url(Imagens\plano_fundo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+aside{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.icon-menu img{
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    margin-top: 15px;
+
+}
+
+#barra-menu{
+    background: #180127;
+    height: 100vh;
+    width: 0px;
+    transition: 0.3s all;
+}
+
+#barra-menu ul li{
+    list-style: none;
+    padding: 15px;
+}
+
+#barra-menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    width: 100%;
+  
+}
+
+#barra-menu ul li a:hover{
+    border: solid 1px #C229AA;
+    padding: 8px;
+    border-radius: 15px;
+    background: #7601c4;
+
+}
+
+.C-icon{
+
+    margin-top: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    overflow: hidden;
+   
+}
+
+.C-icon span{
+    color: #FBF7F7;
+    
+}
+
+.C-icon span:hover{
+    transition: 0.2s;
+    transform: 0.5;
+    color: #C229AA;
+}
+
+.main-title{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 15%;
+   flex-wrap: wrap;  
+ 
+}
+
+.main-title h1{
+    font-size: 70px;
+    color: #fff;
+    margin-top: 15%;
+    font-family: "Poppins";
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+
+}
+
+.main-title h2{
+    color: #FE002D;
+    font-size: 50px;
+    font-family: "Hanuman";
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#pro{
+    position: absolute;
+    top: 530px;
+    left: 350px;
+    gap: 50px;
+    overflow: hidden;
+}
+
+#pro img{
+    width: 50px;
+}
+
+@media only screen and (max-width: 414px)  {
+
+    /*====================Inicio====================*/
+
+    .main-title h1{
+        font-size: 35px;
+        margin-top: 50%;
+        margin-right: 15%;
+        
+    }
+
+    .main-title h2{
+        font-size: 20px;
+        margin-right: 15%;
+    }
+    
+    .main-title h4{
+        top: 80%;
+    }
+
+    .main-title button{
+        width: 150px;
+    }
+
+    #pro{
+        top: 80%;
+        left: 20%;
+    }
+
+    #pro img{
+        width:40px
+    }
+
+}
