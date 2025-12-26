@@ -11,8 +11,9 @@
     box-sizing: border-box;
 }
 
+/*====================Inicio====================*/
 .Section-1-bg{
-    background-image: url(Imagens\plano_fundo.png);
+    background-image: url(../Imagens/plano_fundo.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -37,7 +38,7 @@ aside{
 }
 
 #barra-menu{
-    background: #180127;
+    background: #818c9a;
     height: 100vh;
     width: 0px;
     transition: 0.3s all;
@@ -57,10 +58,10 @@ aside{
 }
 
 #barra-menu ul li a:hover{
-    border: solid 1px #C229AA;
+    border: solid 1px #818c9a;
     padding: 8px;
     border-radius: 15px;
-    background: #7601c4;
+    background: #d1af5b;
 
 }
 
@@ -83,7 +84,7 @@ aside{
 .C-icon span:hover{
     transition: 0.2s;
     transform: 0.5;
-    color: #C229AA;
+    color: #d1af5b;
 }
 
 .main-title{
@@ -97,7 +98,7 @@ aside{
 
 .main-title h1{
     font-size: 70px;
-    color: #fff;
+    color: #041f3f;
     margin-top: 15%;
     font-family: "Poppins";
     font-weight: bold;
@@ -107,7 +108,7 @@ aside{
 }
 
 .main-title h2{
-    color: #FE002D;
+    color: #818c9a;
     font-size: 50px;
     font-family: "Hanuman";
     font-weight: bold;
@@ -123,7 +124,8 @@ aside{
 }
 
 #pro img{
-    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
 @media only screen and (max-width: 414px)  {
@@ -156,7 +158,238 @@ aside{
     }
 
     #pro img{
-        width:40px
+        height:40px;
     }
+
+}
+
+/*====================SOBRE A CHAPA====================*/
+
+.Con-sobre{
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #e5e5e5;
+    
+}
+
+.image img{
+    width: 400px;
+    height: auto;
+    box-shadow: 4px 4px 4px #858585;
+}
+
+.Sobre-conecta h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: "Inter";
+    font-weight: bold;
+    color: black
+}
+
+.Sobre-conecta span{
+    color: #041f3f;
+}
+
+.Sobre-conecta p{
+    margin-top: 25px;
+    font-family: "Inria Sans";
+
+}
+
+.Sobre-conecta button{
+    background-color: #041f3f;
+    margin-left: 35%;
+    margin-top: 30px;
+    padding: 10px 50px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585;
+    transition-duration: .9s;
+
+}
+
+.Sobre-conecta button:hover{
+    color: #041f3f;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+    
+}
+
+@media only screen and (max-width: 414px){
+
+    /*================Sobre-Conecta ================*/
+
+    .image img{
+        width: 300px;
+        height: auto;
+    }
+
+    .Sobre-conecta p{
+        font-size: 12px;
+        width: 350px;
+        padding: 15px;
+        text-align: justify;
+    }
+
+    .Sobre-conecta button{
+        margin-top: 50px;
+        text-align: center;
+    }
+
+
+}
+/*====================SOBRE A CHAPA====================*/
+
+.Caeco-sobre{
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #818c9a;
+    
+}
+
+
+.Sobre-caeco h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: "Inter";
+    font-weight: bold;
+}
+
+.Sobre-caeco h4{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: "Inria Sans";
+    font-weight: bold;
+    color: #041f3f;
+}
+
+.Sobre-caeco p{
+    margin-top: 25px;
+    font-family: "Inria Sans";
+
+}
+
+.Sobre-caeco button{
+    background-color: #041f3f;
+    margin-left: 35%;
+    margin-top: 30px;
+    padding: 10px 50px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585;
+    transition-duration: .9s;
+
+}
+
+.Sobre-caeco button:hover{
+    color: #041f3f;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+    
+}
+
+@media only screen and (max-width: 414px){
+
+    /*================Sobre-Conecta ================*/
+
+    .Sobre-caeco p{
+        font-size: 12px;
+        width: 350px;
+        padding: 15px;
+        text-align: justify;
+    }
+
+    .Sobre-caeco button{
+        margin-top: 50px;
+        text-align: center;
+    }
+
+
+}
+
+.eco-sobre{
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255)
+    
+}
+
+
+.Sobre-eco h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: "Inter";
+    font-weight: bold;
+}
+
+
+.Sobre-eco span{
+    color: #041f3f;
+}
+
+.Sobre-eco p{
+    margin-top: 25px;
+    font-family: "Inria Sans";
+
+}
+
+.Sobre-eco button{
+    background-color: #041f3f;
+    margin-left: 35%;
+    margin-top: 30px;
+    padding: 10px 50px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585;
+    transition-duration: .9s;
+
+}
+
+.Sobre-eco button:hover{
+    color: #041f3f;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+    
+}
+
+@media only screen and (max-width: 414px){
+
+    /*================Sobre-Conecta ================*/
+
+    .Sobre-eco p{
+        font-size: 12px;
+        width: 350px;
+        padding: 15px;
+        text-align: justify;
+    }
+
+    .Sobre-eco button{
+        margin-top: 50px;
+        text-align: center;
+    }
+
 
 }
