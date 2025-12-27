@@ -34,6 +34,7 @@ aside{
     height: 45px;
     margin-right: 15px;
     margin-top: 15px;
+    cursor: pointer;
 
 }
 
@@ -167,24 +168,29 @@ aside{
 
 .Con-sobre{
     display: flex;
-    justify-content: space-around;
-    padding: 150px 0px;
+    align-items: center;        /* centraliza verticalmente */
+    justify-content: center;    /* centraliza o conjunto */
+    gap: 60px;
+
+    min-height: 100vh;          /* ocupa a tela inteira */
     width: 100%;
-    flex-wrap: wrap;
+
+    padding: 0 8%;
+    box-sizing: border-box;              /* espaço entre imagem e texto */
     background-color: #e5e5e5;
     
 }
 
 .image img{
-    width: 400px;
+    width: 300px;
     height: auto;
     box-shadow: 4px 4px 4px #858585;
 }
 
 .Sobre-conecta h1{
     text-align: center;
-    font-size: 55px;
-    font-family: "Inter";
+    font-size: 45px;
+    font-family: "Hanuman";
     font-weight: bold;
     color: black
 }
@@ -195,7 +201,8 @@ aside{
 
 .Sobre-conecta p{
     margin-top: 25px;
-    font-family: "Inria Sans";
+    font-family: "Poppins";
+    text-align: justify;
 
 }
 
@@ -225,6 +232,11 @@ aside{
 @media only screen and (max-width: 414px){
 
     /*================Sobre-Conecta ================*/
+    .Con-sobre {
+        flex-direction: column;
+        padding: 40px 5%;
+        text-align: center;
+    }
 
     .image img{
         width: 300px;
@@ -249,10 +261,15 @@ aside{
 
 .Caeco-sobre{
     display: flex;
-    justify-content: space-around;
-    padding: 150px 0px;
+    align-items: center;        /* centraliza verticalmente */
+    justify-content: center;    /* centraliza o conjunto */
+    gap: 60px;
+
+    min-height: 100vh;          /* ocupa a tela inteira */
     width: 100%;
-    flex-wrap: wrap;
+
+    padding: 0 8%;
+    box-sizing: border-box; 
     background-color: #818c9a;
     
 }
@@ -260,24 +277,19 @@ aside{
 
 .Sobre-caeco h1{
     text-align: center;
-    font-size: 55px;
-    font-family: "Inter";
+    font-size: 45px;
+    font-family: "Hanuman";
     font-weight: bold;
 }
 
-.Sobre-caeco h4{
-    text-align: center;
-    margin-top: 30px;
-    font-size: 25px;
-    font-weight: normal;
-    font-family: "Inria Sans";
-    font-weight: bold;
+.Sobre-caeco span{
     color: #041f3f;
 }
 
 .Sobre-caeco p{
     margin-top: 25px;
-    font-family: "Inria Sans";
+    font-family: "Poppins";
+    text-align: justify;
 
 }
 
@@ -307,6 +319,11 @@ aside{
 @media only screen and (max-width: 414px){
 
     /*================Sobre-Conecta ================*/
+    .Caeco-sobre{
+        flex-direction: column;
+        padding: 40px 5%;
+        text-align: center;
+    }
 
     .Sobre-caeco p{
         font-size: 12px;
@@ -324,11 +341,16 @@ aside{
 }
 
 .eco-sobre{
-    display: flex;
-    justify-content: space-around;
-    padding: 150px 0px;
+   display: flex;
+    align-items: center;        /* centraliza verticalmente */
+    justify-content: center;    /* centraliza o conjunto */
+    gap: 60px;
+
+    min-height: 100vh;          /* ocupa a tela inteira */
     width: 100%;
-    flex-wrap: wrap;
+
+    padding: 0 8%;
+    box-sizing: border-box; 
     background-color: rgb(255, 255, 255)
     
 }
@@ -336,8 +358,8 @@ aside{
 
 .Sobre-eco h1{
     text-align: center;
-    font-size: 55px;
-    font-family: "Inter";
+    font-size: 45px;
+    font-family: "Hanuman";
     font-weight: bold;
 }
 
@@ -348,7 +370,8 @@ aside{
 
 .Sobre-eco p{
     margin-top: 25px;
-    font-family: "Inria Sans";
+    font-family: "Poppins";
+    text-align: justify;
 
 }
 
@@ -378,7 +401,11 @@ aside{
 @media only screen and (max-width: 414px){
 
     /*================Sobre-Conecta ================*/
-
+    .eco-sobre{
+        flex-direction: column;
+        padding: 40px 5%;
+        text-align: center;
+    }
     .Sobre-eco p{
         font-size: 12px;
         width: 350px;
@@ -392,4 +419,84 @@ aside{
     }
 
 
+}
+
+.Container{
+    width: 100%;
+    background-color: #e5e5e5;
+    padding: 50px;
+    
+}
+
+.Container h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: "Inria Sans";
+    font-weight: bold;
+    padding-top: 12%;
+}
+
+.Container p{
+    text-align: center;
+    font-family: "Inria Sans";
+    color: #685B5B;
+    margin-top: 25px;
+    
+} 
+
+.C-card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.Card{
+    background-color: #FFFBFB;
+    padding: 40px;
+    box-shadow: 4px 4px 4px #858585;
+    
+}
+
+.Card img{
+    height: 200px;
+}
+
+.C-card-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.Card h3{
+    font-size: 20px;
+    font-family: "Inria Sans";
+    font-weight: 700;
+}
+.Card h4{
+    font-family: "Inria Sans";
+    font-weight: lighter;
+    color: #BEB7B7;
+    margin-top: 15px;
+}
+
+.Card:hover{
+    transform: scale(1.1);
+    transition-duration: .9s;
+}
+
+
+@media only screen and (max-width: 414px){
+
+    /*===============Serviços================*/
+
+    .Card{
+        margin-top: 35px;
+    }
+
+    .C-card-2{
+        margin-top: 35px;
+    }
 }
