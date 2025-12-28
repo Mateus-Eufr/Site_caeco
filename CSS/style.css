@@ -164,7 +164,7 @@ aside{
 
 }
 
-/*====================SOBRE A CHAPA====================*/
+/*====================SOBRE CONECTA====================*/
 
 .Con-sobre{
     display: flex;
@@ -257,7 +257,7 @@ aside{
 
 
 }
-/*====================SOBRE A CHAPA====================*/
+/*====================SOBRE O CAECO====================*/
 
 .Caeco-sobre{
     display: flex;
@@ -318,7 +318,7 @@ aside{
 
 @media only screen and (max-width: 414px){
 
-    /*================Sobre-Conecta ================*/
+    /*================Sobre-CAECO ================*/
     .Caeco-sobre{
         flex-direction: column;
         padding: 40px 5%;
@@ -340,6 +340,7 @@ aside{
 
 }
 
+/*====================SOBRE O CURSO====================*/
 .eco-sobre{
    display: flex;
     align-items: center;        /* centraliza verticalmente */
@@ -400,7 +401,7 @@ aside{
 
 @media only screen and (max-width: 414px){
 
-    /*================Sobre-Conecta ================*/
+    /*================Sobre-Curso ================*/
     .eco-sobre{
         flex-direction: column;
         padding: 40px 5%;
@@ -421,6 +422,7 @@ aside{
 
 }
 
+/*====================MEMBROS DA CHAPA====================*/
 .Container{
     width: 100%;
     background-color: #e5e5e5;
@@ -436,6 +438,9 @@ aside{
     padding-top: 12%;
 }
 
+.Container span{
+    color: #041f3f;
+}
 .Container p{
     text-align: center;
     font-family: "Inria Sans";
@@ -450,6 +455,14 @@ aside{
     margin-top: 15%;
     text-align: center;
     flex-wrap: wrap;
+}
+
+.C-card h2{
+    font-family: "Poppins";
+}
+
+.C-card-2 h2{
+    font-family: "Poppins";
 }
 
 .Card{
@@ -478,7 +491,7 @@ aside{
 .Card h4{
     font-family: "Inria Sans";
     font-weight: lighter;
-    color: #BEB7B7;
+    color: #041f3f;
     margin-top: 15px;
 }
 
@@ -490,7 +503,7 @@ aside{
 
 @media only screen and (max-width: 414px){
 
-    /*===============Serviços================*/
+    /*===============MEMBROS DA CHAPA================*/
 
     .Card{
         margin-top: 35px;
