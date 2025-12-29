@@ -239,7 +239,7 @@ aside{
     }
 
     .image img{
-        width: 300px;
+        width: 200px;
         height: auto;
     }
 
@@ -250,8 +250,13 @@ aside{
         text-align: justify;
     }
 
+    .Sobre-conecta h1{
+        font-size: 35px;
+    }
+
     .Sobre-conecta button{
-        margin-top: 50px;
+        margin-top: 20px;
+        margin-left: 20px;
         text-align: center;
     }
 
@@ -270,7 +275,7 @@ aside{
 
     padding: 0 8%;
     box-sizing: border-box; 
-    background-color: #818c9a;
+    background-color: #cdd4dd;
     
 }
 
@@ -332,9 +337,14 @@ aside{
         text-align: justify;
     }
 
+    .Sobre-caeco h1{
+        font-size: 35px;
+    }
+
     .Sobre-caeco button{
-        margin-top: 50px;
-        text-align: center;
+        margin-top: 20px;
+        text-align: left;
+        margin-left: 20px;
     }
 
 
@@ -407,6 +417,10 @@ aside{
         padding: 40px 5%;
         text-align: center;
     }
+
+    .Sobre-eco h1{
+        font-size: 35px;
+    }
     .Sobre-eco p{
         font-size: 12px;
         width: 350px;
@@ -415,7 +429,8 @@ aside{
     }
 
     .Sobre-eco button{
-        margin-top: 50px;
+        margin-top: 20px;
+        margin-left: 20px;
         text-align: center;
     }
 
@@ -469,7 +484,7 @@ aside{
 }
 
 .Card{
-    background-color: #FFFBFB;
+    background-color: #041f3f;
     padding: 40px;
     box-shadow: 4px 4px 4px #858585;
     
@@ -490,12 +505,14 @@ aside{
     font-size: 20px;
     font-family: "Inria Sans";
     font-weight: 700;
+    color: white;
 }
 .Card h4{
     font-family: "Inria Sans";
     font-weight: lighter;
     color: #041f3f;
     margin-top: 15px;
+    color: #e6cb70;
 }
 
 .Card:hover{
@@ -507,6 +524,9 @@ aside{
 @media only screen and (max-width: 414px){
 
     /*===============MEMBROS DA CHAPA================*/
+    .Container h1{
+        font-size: 50px;
+    }
     .C-card h2{
         margin-top: 0;
     }
