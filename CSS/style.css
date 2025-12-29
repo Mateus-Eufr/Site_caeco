@@ -457,12 +457,15 @@ aside{
     flex-wrap: wrap;
 }
 
+
 .C-card h2{
     font-family: "Poppins";
+    margin-top: 130px;
 }
 
 .C-card-2 h2{
     font-family: "Poppins";
+    margin-top: 130px;
 }
 
 .Card{
@@ -504,6 +507,13 @@ aside{
 @media only screen and (max-width: 414px){
 
     /*===============MEMBROS DA CHAPA================*/
+    .C-card h2{
+        margin-top: 0;
+    }
+
+    .C-card-2 h2 {
+        margin-top: 0;
+    }
 
     .Card{
         margin-top: 35px;
