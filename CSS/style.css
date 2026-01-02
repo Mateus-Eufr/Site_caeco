@@ -819,7 +819,7 @@ aside{
 #rodape h2{
     float: left;
     margin-top: 30px;
-    margin-left: 30%;
+    margin-left: 25%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -847,14 +847,35 @@ aside{
 
 
 #materia{
-    background-color: #9e9e9e;
-    padding: 10px;
+    background-color: #ffffff;
+    padding: 70px;
     box-shadow: 4px 4px 4px #818c9a;
-    margin-left: 80px;
-    height: 1000px;
-    width: 1200px; 
-    margin-top: 50px;
-    border-radius: 8px;
-    text-align: center;
+    text-align: justify;
 }
 
+#materia h2{
+    font-family: "Poppins";
+    font-size: 50px;
+}
+
+#materia span{
+    color: #041f3f;
+}
+
+#materia h4 {
+    line-height: 1.3;
+    border-bottom: 3px solid #0b2c4d;
+    color: #0b2c4d;
+}
+
+#materia p{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px){
+    #materia {
+        padding: 20px;
+    }
+}
