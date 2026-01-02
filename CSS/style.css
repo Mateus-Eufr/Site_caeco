@@ -590,7 +590,7 @@ aside{
     left: 0px;
     top: 56px;
     background-image: url(../Imagens/plano_fundo.png);
-    z-index: 1;
+    z-index: 1
 }
 
 #capa h1{
@@ -843,5 +843,18 @@ aside{
         margin-left: 60px;
         font-size: 9px;
     }
+}
+
+
+#materia{
+    background-color: #9e9e9e;
+    padding: 10px;
+    box-shadow: 4px 4px 4px #818c9a;
+    margin-left: 80px;
+    height: 1000px;
+    width: 1200px; 
+    margin-top: 50px;
+    border-radius: 8px;
+    text-align: center;
 }
 
