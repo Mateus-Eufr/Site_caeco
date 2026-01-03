@@ -869,13 +869,22 @@ aside{
 }
 
 #materia p{
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 20px;
     text-align: justify;
+    font-family: "Arial";
 }
 
 @media only screen and (max-width: 600px){
     #materia {
         padding: 20px;
+    }
+
+    #materia h2{
+        font-size: 30px
+    }
+
+    #materia p{
+        font-size: 13px;
     }
 }
