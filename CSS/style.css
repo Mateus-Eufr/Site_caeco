@@ -760,6 +760,7 @@ aside{
 }
 
 #card button{
+    margin-top: 5px;
     width: 30%;
     padding: 8px 5px;
     background-color: #ffffff;
