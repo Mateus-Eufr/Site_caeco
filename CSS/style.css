@@ -13,7 +13,7 @@
 
 /*====================Inicio====================*/
 .Section-1-bg{
-    background-image: url(../Imagens/plano_fundo.png);
+    background-image: url(../Imagens/capa2.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -99,7 +99,7 @@ aside{
 }
 
 .main-title h1{
-    font-size: 70px;
+    font-size: 0px;
     color: #041f3f;
     margin-top: 15%;
     font-family: "Poppins";
@@ -111,7 +111,7 @@ aside{
 
 .main-title h2{
     color: #818c9a;
-    font-size: 50px;
+    font-size: 0px;
     font-family: "Hanuman";
     font-weight: bold;
     letter-spacing: 2px;
@@ -133,7 +133,10 @@ aside{
 @media only screen and (max-width: 414px)  {
 
     /*====================Inicio====================*/
-
+    .Section-1-bg{
+        background-image: url(../Imagens/plano_fundo.png);
+    }
+    
     .main-title h1{
         font-size: 35px;
         margin-top: 50%;
@@ -589,7 +592,7 @@ aside{
     height: 220px;
     left: 0px;
     top: 56px;
-    background-image: url(../Imagens/capa.png);
+    background-image: url(../Imagens/capa2.png);
     z-index: 1
 }
 
@@ -804,7 +807,7 @@ aside{
 /*--------------RODAPÉ------------*/
 
 #rodape{
-    background-image: url(../Imagens/plano_fundo.png);
+    background-image: url(../Imagens/capa2.png);
     height: 100px;
     width: 100%; 
     margin-top: 10px;
