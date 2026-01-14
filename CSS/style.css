@@ -130,7 +130,7 @@ aside{
     border-radius: 50%;
 }
 
-@media only screen and (max-width: 414px)  {
+@media only screen and (max-width: 600px)  {
 
     /*====================Inicio====================*/
 
@@ -230,7 +230,7 @@ aside{
     
 }
 
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 600px){
 
     /*================Sobre-Conecta ================*/
     .Con-sobre {
@@ -322,7 +322,7 @@ aside{
     
 }
 
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 600px){
 
     /*================Sobre-CAECO ================*/
     .Caeco-sobre{
@@ -410,7 +410,7 @@ aside{
     
 }
 
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 600px){
 
     /*================Sobre-Curso ================*/
     .eco-sobre{
@@ -522,7 +522,7 @@ aside{
 }
 
 
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 600px){
 
     /*===============MEMBROS DA CHAPA================*/
     .Container h1{
@@ -743,6 +743,7 @@ aside{
     font-family: 'Inter';
     text-align: center;
     font-size: 15px;
+    font-weight: bold;
 }
 
 #card p {
